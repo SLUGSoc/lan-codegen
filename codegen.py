@@ -56,9 +56,9 @@ codes = list(codes)
 sqlFile = open('codes.sql', 'w')
 
 # truncate tables
-sqlFile.write('TRUNATE TABLE `authpuppy`.`ap_user`;\n')
-sqlFile.write('TRUNATE TABLE `authpuppy`.`connections`;\n')
-sqlFile.write('TRUNATE TABLE `authpuppy`.`ap_applicable_policies`;\n')
+sqlFile.write('TRUNCATE TABLE `authpuppy`.`ap_user`;\n')
+sqlFile.write('TRUNCATE TABLE `authpuppy`.`connections`;\n')
+sqlFile.write('TRUNCATE TABLE `authpuppy`.`ap_applicable_policies`;\n')
 sqlFile.write('\n')
 
 sql = ''
